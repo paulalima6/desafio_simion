@@ -65,7 +65,17 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>		
+		</dependency>
+		
+		<!-- mysql -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+<!-- 			<version>8.0.21</version> -->
+			<scope>runtime</scope>
+		</dependency>
+
+		
 	</dependencies>
 
 	<build>
