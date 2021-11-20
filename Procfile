@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar target/desafio_simion*.jar
+web: java -jar target/desafio_simion-1.0.0-SNAPSHOT.jar
