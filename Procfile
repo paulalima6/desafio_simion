@@ -1,1 +1,1 @@
-web: java -jar target/desafio_simion-1.0.0-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar target/desafio_simion-1.0.0-SNAPSHOT.jar
